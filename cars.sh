@@ -11,7 +11,7 @@ while true; do
 			echo -n "Year: "; read year
 			echo -n "Make: "; read make
 			echo -n "Model: "; read model
-			echo $year: $make: $model >> My_old_cars
+			echo "$year": "$make": "$model" >> My_old_cars
 			;;
 		"2")
 			sort My_old_cars
