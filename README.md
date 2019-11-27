@@ -2,8 +2,8 @@
  
 The user will be presented with a menu of three options:
 1. Entering a new car by prompting the user for:
-⋅⋅* Year
-⋅⋅* Make
-⋅⋅* Model
+* Year
+* Make
+* Model
 2. Displaying the list of cars from the *"My_old_cars"* file
 3. Quitting and exiting the program
