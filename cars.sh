@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 #cars.sh
 #Meghna Raswan
 while true; do
@@ -8,9 +8,9 @@ while true; do
 	echo -n "Number: "; read -r number
 	case "$number" in
 		"1")
-			echo -n "Year: "; read year
-			echo -n "Make: "; read make
-			echo -n "Model: "; read model
+			echo -n "Year: "; read -r year
+			echo -n "Make: "; read -r make
+			echo -n "Model: "; read -r model
 			echo "$year": "$make": "$model" >> My_old_cars
 			;;
 		"2")
